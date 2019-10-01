@@ -101,7 +101,7 @@ function _setValue(destinationObject, key, keys, fromValue) {
     }
   }
   if (keys.length === 0) {
-    if(!canBeNull && (fromValue === null || fromValue === undefined)){
+    if(canBeNull && (fromValue === null || fromValue === undefined)){
       return destinationObject;
     }
     if (isValueArray) {

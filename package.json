@@ -5,7 +5,7 @@
   "version": "5.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wankdanker/node-object-mapper.git"
+    "url": "git://github.com/freightview/node-object-mapper.git"
   },
   "scripts": {
     "test": "node test/test.js"

@@ -158,29 +158,6 @@ The `Array` shorthand for an `Object`:
 [(Key(String))), (Transform(Function())), (Default(String|Number|Function()))]
 ```
 
-### Null Values
-
-By default `null` values on the source `Object` is not mapped. You can override this by including the post fix operator '?' to any destination `key`.
-
-```javascript
-var original = {
-  "sourceKey": null,
-  "otherSourceKey": null
-}
-
-var transform = {
-  "sourceKey": "canBeNull?",
-  "otherSourceKey": "cannotBeNull"
-}
-
-var results = ObjectMapper(original, {}, transform);
-
-// Results would be the following
-{
-  canBeNull: null
-}
-```
-
 ## Methods
 
 ### .merge(sourceObject[, destinationObject], mapObject);

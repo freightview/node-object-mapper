@@ -1,6 +1,6 @@
 {
   "author": "Dan VerWeire <dverweire@gmail.com>",
-  "name": "object-mapper",
+  "name": "@freightview/object-mapper",
   "description": "Copy properties from one object to another.",
   "version": "5.0.0",
   "repository": {
@@ -22,18 +22,18 @@
     "node": "*"
   },
   "contributors": [
-    {
-      "name": "Dan VerWeire",
-      "email": "dverweire@gmail.com"
-    },
-    {
-      "name": "rafakato"
-    },
-    {
-      "name": "irnc"
-    },
-    {
-      "name": "scotthogan"
-    }
-  ]
+    "Dan VerWeire <dverweire@gmail.com>",
+    "rafakato",
+    "irnc",
+    "scotthogan"
+  ],
+  "bugs": {
+    "url": "https://github.com/freightview/node-object-mapper/issues"
+  },
+  "homepage": "https://github.com/freightview/node-object-mapper#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
 }
